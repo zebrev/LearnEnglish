@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE95990602EAEDBE07D74F4 /* Pods_LearnEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFAFDA2C4ABB01BCA7B3791 /* Pods_LearnEnglish.framework */; };
 		5C713B181F0E6CA9005B6051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C713B171F0E6CA9005B6051 /* AppDelegate.swift */; };
 		5C713B1A1F0E6CA9005B6051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C713B191F0E6CA9005B6051 /* ViewController.swift */; };
 		5C713B1D1F0E6CA9005B6051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C713B1B1F0E6CA9005B6051 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		5C713B221F0E6CA9005B6051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C713B201F0E6CA9005B6051 /* LaunchScreen.storyboard */; };
 		5C713B2D1F0E6CA9005B6051 /* LearnEnglishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C713B2C1F0E6CA9005B6051 /* LearnEnglishTests.swift */; };
 		5C713B381F0E6CA9005B6051 /* LearnEnglishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C713B371F0E6CA9005B6051 /* LearnEnglishUITests.swift */; };
+		5C713B481F0E7A8E005B6051 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5C713B471F0E7A8E005B6051 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BFAFDA2C4ABB01BCA7B3791 /* Pods_LearnEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C713B141F0E6CA9005B6051 /* LearnEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C713B171F0E6CA9005B6051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C713B191F0E6CA9005B6051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		5C713B331F0E6CA9005B6051 /* LearnEnglishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnEnglishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C713B371F0E6CA9005B6051 /* LearnEnglishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnEnglishUITests.swift; sourceTree = "<group>"; };
 		5C713B391F0E6CA9005B6051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C713B471F0E7A8E005B6051 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C394FAB2F7D4EF02A6A106D /* Pods-LearnEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnEnglish.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnEnglish/Pods-LearnEnglish.release.xcconfig"; sourceTree = "<group>"; };
+		BC061BA2C5CCF5B14EB1991D /* Pods-LearnEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnEnglish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnEnglish/Pods-LearnEnglish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE95990602EAEDBE07D74F4 /* Pods_LearnEnglish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,8 @@
 				5C713B2B1F0E6CA9005B6051 /* LearnEnglishTests */,
 				5C713B361F0E6CA9005B6051 /* LearnEnglishUITests */,
 				5C713B151F0E6CA9005B6051 /* Products */,
+				A5442CD5E8EABC3C0983DF0D /* Pods */,
+				6265178B48B5E19B43B2AF98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +134,24 @@
 			path = LearnEnglishUITests;
 			sourceTree = "<group>";
 		};
+		6265178B48B5E19B43B2AF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BFAFDA2C4ABB01BCA7B3791 /* Pods_LearnEnglish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5442CD5E8EABC3C0983DF0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C713B471F0E7A8E005B6051 /* Podfile */,
+				BC061BA2C5CCF5B14EB1991D /* Pods-LearnEnglish.debug.xcconfig */,
+				6C394FAB2F7D4EF02A6A106D /* Pods-LearnEnglish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C713B3C1F0E6CA9005B6051 /* Build configuration list for PBXNativeTarget "LearnEnglish" */;
 			buildPhases = (
+				4896E72A2C1BFF9CC93CF88F /* [CP] Check Pods Manifest.lock */,
 				5C713B101F0E6CA9005B6051 /* Sources */,
 				5C713B111F0E6CA9005B6051 /* Frameworks */,
 				5C713B121F0E6CA9005B6051 /* Resources */,
+				A44ECEC450DFED919F22905B /* [CP] Embed Pods Frameworks */,
+				7044F1F0FCC53CD8EB956C78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +264,7 @@
 			files = (
 				5C713B221F0E6CA9005B6051 /* LaunchScreen.storyboard in Resources */,
 				5C713B1F1F0E6CA9005B6051 /* Assets.xcassets in Resources */,
+				5C713B481F0E7A8E005B6051 /* Podfile in Resources */,
 				5C713B1D1F0E6CA9005B6051 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4896E72A2C1BFF9CC93CF88F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7044F1F0FCC53CD8EB956C78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnEnglish/Pods-LearnEnglish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44ECEC450DFED919F22905B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnEnglish/Pods-LearnEnglish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C713B101F0E6CA9005B6051 /* Sources */ = {
@@ -412,6 +491,7 @@
 		};
 		5C713B3D1F0E6CA9005B6051 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC061BA2C5CCF5B14EB1991D /* Pods-LearnEnglish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LearnEnglish/Info.plist;
@@ -424,6 +504,7 @@
 		};
 		5C713B3E1F0E6CA9005B6051 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C394FAB2F7D4EF02A6A106D /* Pods-LearnEnglish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LearnEnglish/Info.plist;
@@ -507,6 +588,7 @@
 				5C713B3E1F0E6CA9005B6051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C713B3F1F0E6CA9005B6051 /* Build configuration list for PBXNativeTarget "LearnEnglishTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +597,7 @@
 				5C713B411F0E6CA9005B6051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C713B421F0E6CA9005B6051 /* Build configuration list for PBXNativeTarget "LearnEnglishUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +606,7 @@
 				5C713B441F0E6CA9005B6051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
